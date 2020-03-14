@@ -1,5 +1,58 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="LifeofSi.StartingPage">
+<ContentPage BackgroundImageSource="background" HeightRequest="70" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="LifeofSi.StartingPage">
     <ContentPage.Content>
+                <Grid VerticalOptions="FillAndExpand">
+
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="210"></RowDefinition>
+                <RowDefinition Height="200"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+           <StackLayout
+                Margin="20,60,50,45">
+             <Label
+                 Text="Life of Si"
+                 VerticalOptions="Start"
+                 TextColor="#ED1E79"
+                 HorizontalOptions="Center"
+                 FontSize="43">
+             </Label>
+           </StackLayout>
+
+           <StackLayout
+               Grid.Row="1"
+               Margin="0,0,0,0">
+               
+                <Image
+                  VerticalOptions="FillAndExpand"
+                  
+                  Grid.Row="1"   
+                  Source="green_worm"
+                  WidthRequest="60"
+                  HeightRequest="90">
+                 </Image>
+           </StackLayout>
+
+                        
+
+            <StackLayout
+                 Margin="0,100,0,0"
+                Grid.Row="2">
+                <ImageButton
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Grid.Row="2" 
+                    HeightRequest="57"
+                    WidthRequest="57"
+                    Source="play_button"
+                    Clicked="ImageButton_Clicked">
+                 </ImageButton>
+            </StackLayout>
+
+
+
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

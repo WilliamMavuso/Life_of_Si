@@ -112,6 +112,39 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
       <Visible>false</Visible>
     </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\background.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\basket.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\leaf.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\nav_leaf.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\green_worm.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\cocoon.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\menu.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\play_button.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\swatter.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\background.imageset\background.png" />
+    <ImageAsset Include="Assets.xcassets\background.imageset\background2x.png" />
+    <ImageAsset Include="Assets.xcassets\background.imageset\background3x.png" />
+    <ImageAsset Include="Assets.xcassets\green_worm.imageset\green_worm1x.png" />
+    <ImageAsset Include="Assets.xcassets\green_worm.imageset\green_worm2x.png" />
+    <ImageAsset Include="Assets.xcassets\green_worm.imageset\green_worm3x.png" />
+    <ImageAsset Include="Assets.xcassets\basket.imageset\basket.png" />
+    <ImageAsset Include="Assets.xcassets\basket.imageset\basket2x.png" />
+    <ImageAsset Include="Assets.xcassets\basket.imageset\basket3x.png" />
+    <ImageAsset Include="Assets.xcassets\leaf.imageset\leaf.png" />
+    <ImageAsset Include="Assets.xcassets\leaf.imageset\leaf2x.png" />
+    <ImageAsset Include="Assets.xcassets\leaf.imageset\leaf3x.png" />
+    <ImageAsset Include="Assets.xcassets\nav_leaf.imageset\nav_leaf.png" />
+    <ImageAsset Include="Assets.xcassets\nav_leaf.imageset\nav_leaf2x.png" />
+    <ImageAsset Include="Assets.xcassets\nav_leaf.imageset\nav_leaf3x.png" />
+    <ImageAsset Include="Assets.xcassets\cocoon.imageset\cocoon.png" />
+    <ImageAsset Include="Assets.xcassets\cocoon.imageset\cocoon2x.png" />
+    <ImageAsset Include="Assets.xcassets\cocoon.imageset\cocoon3x.png" />
+    <ImageAsset Include="Assets.xcassets\play_button.imageset\play_button.png" />
+    <ImageAsset Include="Assets.xcassets\play_button.imageset\play_button%402x.png" />
+    <ImageAsset Include="Assets.xcassets\play_button.imageset\play_button%403x.png" />
+    <ImageAsset Include="Assets.xcassets\swatter.imageset\swatter.png" />
+    <ImageAsset Include="Assets.xcassets\swatter.imageset\swatter2x.png" />
+    <ImageAsset Include="Assets.xcassets\swatter.imageset\swatter3x.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -131,5 +164,16 @@
       <Project>{01794405-5B54-4532-B9CC-A6489AB2A70D}</Project>
       <Name>LifeofSi</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets.xcassets\background.imageset\" />
+    <Folder Include="Assets.xcassets\basket.imageset\" />
+    <Folder Include="Assets.xcassets\leaf.imageset\" />
+    <Folder Include="Assets.xcassets\nav_leaf.imageset\" />
+    <Folder Include="Assets.xcassets\green_worm.imageset\" />
+    <Folder Include="Assets.xcassets\cocoon.imageset\" />
+    <Folder Include="Assets.xcassets\menu.imageset\" />
+    <Folder Include="Assets.xcassets\play_button.imageset\" />
+    <Folder Include="Assets.xcassets\swatter.imageset\" />
   </ItemGroup>
 </Project>
