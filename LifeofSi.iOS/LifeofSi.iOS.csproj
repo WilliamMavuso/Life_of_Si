@@ -145,6 +145,21 @@
     <ImageAsset Include="Assets.xcassets\swatter.imageset\swatter.png" />
     <ImageAsset Include="Assets.xcassets\swatter.imageset\swatter2x.png" />
     <ImageAsset Include="Assets.xcassets\swatter.imageset\swatter3x.png" />
+    <ImageAsset Include="Assets.xcassets\menu.imageset\menu.png" />
+    <ImageAsset Include="Assets.xcassets\menu.imageset\menu2.png" />
+    <ImageAsset Include="Assets.xcassets\menu.imageset\menu3.png" />
+    <ImageAsset Include="Assets.xcassets\stage_1.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\stage_2.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\stage_3.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\stage_1.imageset\stage_1.png" />
+    <ImageAsset Include="Assets.xcassets\stage_1.imageset\stage_12x.png" />
+    <ImageAsset Include="Assets.xcassets\stage_1.imageset\stage_13x.png" />
+    <ImageAsset Include="Assets.xcassets\stage_2.imageset\stage_2.png" />
+    <ImageAsset Include="Assets.xcassets\stage_2.imageset\stage_22x.png" />
+    <ImageAsset Include="Assets.xcassets\stage_2.imageset\stage_23x.png" />
+    <ImageAsset Include="Assets.xcassets\stage_3.imageset\stage_3.png" />
+    <ImageAsset Include="Assets.xcassets\stage_3.imageset\stage_32x.png" />
+    <ImageAsset Include="Assets.xcassets\stage_3.imageset\stage_33x.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -175,5 +190,8 @@
     <Folder Include="Assets.xcassets\menu.imageset\" />
     <Folder Include="Assets.xcassets\play_button.imageset\" />
     <Folder Include="Assets.xcassets\swatter.imageset\" />
+    <Folder Include="Assets.xcassets\stage_1.imageset\" />
+    <Folder Include="Assets.xcassets\stage_2.imageset\" />
+    <Folder Include="Assets.xcassets\stage_3.imageset\" />
   </ItemGroup>
 </Project>

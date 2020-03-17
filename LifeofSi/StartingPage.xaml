@@ -30,19 +30,21 @@
                   
                   Grid.Row="1"   
                   Source="green_worm"
-                  WidthRequest="60"
-                  HeightRequest="90">
+                  WidthRequest="70"
+                  HeightRequest="70">
                  </Image>
            </StackLayout>
 
                         
 
             <StackLayout
+               
                  Margin="0,100,0,0"
                 Grid.Row="2">
                 <ImageButton
                     VerticalOptions="Center"
                     HorizontalOptions="Center"
+                    BackgroundColor="Transparent" 
                     Grid.Row="2" 
                     HeightRequest="57"
                     WidthRequest="57"

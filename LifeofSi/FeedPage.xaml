@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="LifeofSi.FeedPage">
+<ContentPage BackgroundColor="White" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="LifeofSi.FeedPage">
     <ContentPage.Content>
             <Grid HorizontalOptions="FillAndExpand"
                   VerticalOptions="FillAndExpand"
+                  
                   Grid.Row="0">
               <Grid.RowDefinitions>
                 <RowDefinition Height="50"></RowDefinition>
@@ -18,9 +19,10 @@
                     VerticalOptions="Start"
                     HorizontalOptions="StartAndExpand"
                     Source="menu"
+                    BackgroundColor="Transparent" 
                     HeightRequest="43"
                     WidthRequest="43"
-                    Margin="10,15,20,20"
+                    Margin="10,0,20,20"
                    >
                 </ImageButton>
 
@@ -28,6 +30,7 @@
                  
                      VerticalOptions="CenterAndExpand"
                      HorizontalOptions="CenterAndExpand"
+                     BackgroundColor="Transparent" 
                      WidthRequest="80"
                      HeightRequest="80"
                      Source="green_worm">
@@ -37,7 +40,7 @@
 
 
             <StackLayout
-                 Margin="10,140,20,20"
+                 Margin="10,115,20,20"
                 Grid.Row="1">
 
                 <Label
@@ -62,6 +65,7 @@
                         HeightRequest="28"
                         WidthRequest="28"
                         Source="leaf"
+                        BackgroundColor="Transparent" 
                         HorizontalOptions="Center">
                     </Image>
                     <Label
@@ -75,8 +79,10 @@
 
             <StackLayout Grid.Row="2">
                 <ImageButton
+                     Margin="10,0,-2,20"
                 VerticalOptions="CenterAndExpand"
                 HorizontalOptions="Center"
+                    BackgroundColor="Transparent" 
                 WidthRequest="220"
                 HeightRequest="220"
                 Source="green_worm" >
@@ -113,6 +119,7 @@
                         Source="nav_leaf"
                         WidthRequest="30"
                         HeightRequest="30"
+                        BackgroundColor="Transparent" 
                         HorizontalOptions="Center"
                         Clicked="LeafButton_Clicked" />
 
@@ -128,7 +135,7 @@
                             HorizontalOptions="Center"/>
 
                         <Label
-                            Text="Fed"
+                            Text="Feed"
                             TextColor="#7D7D7D"
                             FontSize="11"
                             HorizontalOptions="Center"/>
@@ -146,6 +153,7 @@
                         Source="cocoon"
                         WidthRequest="30"
                         HeightRequest="30"
+                        BackgroundColor="Transparent" 
                         HorizontalOptions="Center"
                         Clicked="CocoonButton_Clicked"/>
 
@@ -171,19 +179,20 @@
 
                 <StackLayout
                     Grid.Column="2" Orientation="Vertical" Spacing="10" HorizontalOptions="CenterAndExpand">
-                    <ImageButton  Source="swatter"  Clicked="SwatButton_Clicked" WidthRequest="30" HeightRequest="30" HorizontalOptions="Center"/>
+                    <ImageButton  Source="swatter" BackgroundColor="Transparent"  Clicked="SwatButton_Clicked" WidthRequest="30" HeightRequest="30" HorizontalOptions="Center"/>
                     <StackLayout Spacing="7" HorizontalOptions="CenterAndExpand">
                         <Label Text="921" TextColor="Black" FontSize="14" FontAttributes="Bold" HorizontalOptions="Center"/>
                         <Label Text="Swat Flies" TextColor="#7D7D7D" FontSize="11" HorizontalOptions="Center"/>
                     </StackLayout>
                 </StackLayout>
                 <StackLayout Grid.Column="3" Orientation="Vertical" Spacing="10" HorizontalOptions="CenterAndExpand">
-                    <ImageButton  Source="basket"  Clicked="BasketButton_Clicked" WidthRequest="30" HeightRequest="30" HorizontalOptions="Center"/>
+                    <ImageButton  Source="basket" BackgroundColor="Transparent"  Clicked="BasketButton_Clicked" WidthRequest="30" HeightRequest="30" HorizontalOptions="Center"/>
                     <StackLayout Spacing="7" HorizontalOptions="CenterAndExpand">
                         <Label Text="24%" TextColor="Black" FontSize="14" FontAttributes="Bold" HorizontalOptions="Center"/>
                         <Label Text="Market" TextColor="#7D7D7D" FontSize="11" HorizontalOptions="Center"/>
                     </StackLayout>
                 </StackLayout>
+
             </Grid>
         </Frame>
 
