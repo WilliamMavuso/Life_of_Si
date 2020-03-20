@@ -26,8 +26,6 @@
                    >
                 </ImageButton>
 
-
-
             </StackLayout>
 
 
@@ -66,23 +64,27 @@
                     VerticalOptions="Center"
                     HorizontalOptions="Center">
                 </Label>
-                    <Image
-                        HeightRequest="28"
-                        WidthRequest="28"
-                        Source="leaf"
-                        BackgroundColor="Transparent" 
-                        HorizontalOptions="Center">
-                    </Image>
-                                        <StackLayout
+
+
+
+        <ProgressBar x:Name="mainProgressBar"
+                     Progress="0.25"
+                     WidthRequest="300"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center">
+        </ProgressBar>
+
+         <!--<ActivityIndicator  x:Name="activityIndicator" 
+                             Color="Black"/>-->
+
+        <Label Text="%30" x:Name="lbl"
+           VerticalOptions="Center" 
+           HorizontalOptions="Center" />
+
+                <StackLayout
                     Orientation="Horizontal"
                     HorizontalOptions="Center"
                     Spacing="20">
-
-                    <Label
-                        HorizontalOptions="CenterAndExpand"
-                        Margin="0,6,0,0"
-                        Text="30%">
-                    </Label>
                 </StackLayout>
                     </StackLayout>
                 </Grid>
