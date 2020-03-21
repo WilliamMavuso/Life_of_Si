@@ -99,7 +99,7 @@
                 VerticalOptions="Start"
                 HorizontalOptions="Center"
                 BackgroundColor="Transparent" 
-                WidthRequest="220"
+                WidthRequest="160"
                 HeightRequest="220"
                 Source="stage_1" >
               

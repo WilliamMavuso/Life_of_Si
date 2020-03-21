@@ -38,7 +38,7 @@
                      BackgroundColor="Transparent" 
                      WidthRequest="80"
                      HeightRequest="80"
-                     Source="green_worm">
+                     Source="fly">
                 </ImageButton>
 
                  <ImageButton
@@ -47,7 +47,7 @@
                      BackgroundColor="Transparent" 
                      WidthRequest="80"
                      HeightRequest="80"
-                     Source="green_worm">
+                     Source="fly">
                 </ImageButton>
 
                 <ImageButton
@@ -56,7 +56,7 @@
                      BackgroundColor="Transparent" 
                      WidthRequest="80"
                      HeightRequest="80"
-                     Source="green_worm">
+                     Source="fly">
                 </ImageButton>
 
             </StackLayout>
@@ -95,7 +95,7 @@
                      BackgroundColor="Transparent" 
                      WidthRequest="80"
                      HeightRequest="80"
-                     Source="green_worm">
+                     Source="fly">
                 </ImageButton>
 
                  <ImageButton
@@ -104,7 +104,7 @@
                      BackgroundColor="Transparent" 
                      WidthRequest="80"
                      HeightRequest="80"
-                     Source="green_worm">
+                     Source="fly">
                 </ImageButton>
 
                 <ImageButton
@@ -113,7 +113,7 @@
                      BackgroundColor="Transparent" 
                      WidthRequest="80"
                      HeightRequest="80"
-                     Source="green_worm">
+                     Source="fly">
                 </ImageButton>
 
             </StackLayout>
@@ -130,7 +130,7 @@
                      BackgroundColor="Transparent" 
                      WidthRequest="80"
                      HeightRequest="80"
-                     Source="green_worm">
+                     Source="fly">
                 </ImageButton>
 
                  <ImageButton
@@ -139,7 +139,7 @@
                      BackgroundColor="Transparent" 
                      WidthRequest="80"
                      HeightRequest="80"
-                     Source="green_worm">
+                     Source="fly">
                 </ImageButton>
 
                 <ImageButton
@@ -148,7 +148,7 @@
                      BackgroundColor="Transparent" 
                      WidthRequest="80"
                      HeightRequest="80"
-                     Source="green_worm">
+                     Source="fly">
                 </ImageButton>
 
             </StackLayout>

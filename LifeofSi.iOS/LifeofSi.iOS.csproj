@@ -160,6 +160,10 @@
     <ImageAsset Include="Assets.xcassets\stage_3.imageset\stage_3.png" />
     <ImageAsset Include="Assets.xcassets\stage_3.imageset\stage_32x.png" />
     <ImageAsset Include="Assets.xcassets\stage_3.imageset\stage_33x.png" />
+    <ImageAsset Include="Assets.xcassets\fly.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\fly.imageset\fly.png" />
+    <ImageAsset Include="Assets.xcassets\fly.imageset\fly2x.png" />
+    <ImageAsset Include="Assets.xcassets\fly.imageset\fly3x.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -193,5 +197,6 @@
     <Folder Include="Assets.xcassets\stage_1.imageset\" />
     <Folder Include="Assets.xcassets\stage_2.imageset\" />
     <Folder Include="Assets.xcassets\stage_3.imageset\" />
+    <Folder Include="Assets.xcassets\fly.imageset\" />
   </ItemGroup>
 </Project>
