@@ -10,7 +10,7 @@ namespace LifeofSi
         {
             InitializeComponent();
 
-            MainPage = new StartingPage();
+            MainPage = new LifeofSi.MainPage();
         }
 
         protected override void OnStart()

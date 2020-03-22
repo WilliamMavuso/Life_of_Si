@@ -3,7 +3,9 @@
 			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:LifeofSi"
 			 x:Class="LifeofSi.MasterPage"
-			 Padding="0,40,0,0"
+			 Padding="0,0,0,0"
+             
+             BackgroundColor="White"
 			 IconImageSource="menu.png"
 			 Title="Personal Organiser">
     <StackLayout>

@@ -19,7 +19,7 @@
 
             <StackLayout>
 
-                <ImageButton
+                <!--<ImageButton
                     VerticalOptions="Start"
                     HorizontalOptions="StartAndExpand"
                     Source="menu"
@@ -28,7 +28,7 @@
                     WidthRequest="43"
                     Margin="10,0,20,20"
                    >
-                </ImageButton>
+                </ImageButton>-->
 
                  <ImageButton
                  
