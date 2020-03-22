@@ -18,4 +18,13 @@
   <ItemGroup>
     <Folder Include="Objects\" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="CS\MainPageCS.cs" />
+    <Compile Remove="CS\MasterPageCS.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
 </Project>
