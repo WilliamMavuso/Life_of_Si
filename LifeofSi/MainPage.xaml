@@ -2,15 +2,16 @@
 <MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LifeofSi.MainPage"
+             BackgroundColor="White"
              xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
              xmlns:customControls="clr-namespace:LifeofSi.Controls;assembly=LifeofSi"
-            NavigationPage.HasNavigationBar="False"
+             NavigationPage.HasNavigationBar="False"
              xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" 
-    ios:Page.UseSafeArea="true"
-             xmlns:pages="clr-namespace:LifeofSi">
+             ios:Page.UseSafeArea="true"
+             >
     
     <MasterDetailPage.Master>
-        <ContentPage Title="Menu" Icon="hamburger.png"
+        <ContentPage Title="Menu" Icon=""
                  BackgroundColor="White">
 
             <StackLayout Orientation="Vertical">
