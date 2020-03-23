@@ -3,18 +3,18 @@
 			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:LifeofSi"
 			 x:Class="LifeofSi.MasterPage"
-			 Padding="0,0,0,0"
-             
+			 Padding="10,20,30,40"
              BackgroundColor="White"
+             
 			 IconImageSource="menu.png"
-			 Title="Personal Organiser">
+             Title="Menu">
     <StackLayout>
         <ListView x:Name="listView" x:FieldModifier="public">
            <ListView.ItemsSource>
                 <x:Array Type="{x:Type local:MasterPageItem}">
-                    <local:MasterPageItem Title="Home" IconSource="contacts.png" TargetType="{x:Type local:StartingPage}" />
-                    <local:MasterPageItem Title="Cocoon" IconSource="todo.png" TargetType="{x:Type local:CocoonPage}" />
-                    <local:MasterPageItem Title="Flies" IconSource="reminders.png" TargetType="{x:Type local:FliesPage}" />
+                    <!--<local:MasterPageItem Title="Home" IconSource="green_worm.png" TargetType="{x:Type local:StartingPage}" />
+                    <local:MasterPageItem Title="Cocoon" IconSource="cocoon.png" TargetType="{x:Type local:CocoonPage}" />
+                    <local:MasterPageItem Title="Flies" IconSource="fly.png" TargetType="{x:Type local:FliesPage}" />-->
                 </x:Array>
             </ListView.ItemsSource>
             <ListView.ItemTemplate>
