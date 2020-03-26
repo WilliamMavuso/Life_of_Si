@@ -1,5 +1,154 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="LifeofSi.MarketPage">
     <ContentPage.Content>
+                    <Grid HorizontalOptions="FillAndExpand"
+                  VerticalOptions="FillAndExpand"
+
+                  Grid.Row="0">
+              <Grid.RowDefinitions>
+                <RowDefinition Height="50"></RowDefinition>
+                <RowDefinition Height="200"></RowDefinition>
+                <RowDefinition Height="310"></RowDefinition>
+                <RowDefinition Height="250"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <StackLayout>
+
+                <ImageButton
+                    VerticalOptions="Start"
+                    HorizontalOptions="StartAndExpand"
+                    Source="menu"
+                    BackgroundColor="Transparent" 
+                    HeightRequest="43"
+                    WidthRequest="43"
+                    Margin="10,0,20,20"
+                   >
+                </ImageButton>
+
+                 <ImageButton
+
+                     VerticalOptions="CenterAndExpand"
+                     HorizontalOptions="CenterAndExpand"
+                     BackgroundColor="Transparent" 
+                     WidthRequest="80"
+                     HeightRequest="80"
+                     Source="green_worm">
+                </ImageButton>
+
+            </StackLayout>
+
+
+                    <Frame
+                        Grid.Row="3"
+                        HasShadow="False"
+                        Margin="20,-40,20,0"
+                        Padding="0" HeightRequest="120"
+                        VerticalOptions="Start">
+
+                <Grid
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="CenterAndExpand">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <StackLayout
+                    Orientation="Vertical"
+                    Spacing="10"
+                    HorizontalOptions="CenterAndExpand">
+
+                    <ImageButton
+                        Source="nav_leaf"
+                        WidthRequest="30"
+                        HeightRequest="30"
+                        BackgroundColor="Transparent" 
+                        HorizontalOptions="Center"
+                        Clicked="LeafButton_Clicked" />
+
+                    <StackLayout
+                        Spacing="7"
+                        HorizontalOptions="CenterAndExpand">
+
+                        <Label
+                            Text="60%"
+                            TextColor="Black"
+                            FontSize="14"
+                            FontAttributes="Bold"
+                            HorizontalOptions="Center"/>
+
+                        <Label
+                            Text="Feed"
+                            TextColor="#7D7D7D"
+                            FontSize="11"
+                            HorizontalOptions="Center"/>
+                    </StackLayout>
+                </StackLayout>
+
+
+                <StackLayout
+                    Grid.Column="1"
+                    Orientation="Vertical"
+                    Spacing="10"
+                    HorizontalOptions="CenterAndExpand">
+
+                    <ImageButton
+                        Source="cocoon"
+                        WidthRequest="30"
+                        HeightRequest="30"
+                        BackgroundColor="Transparent" 
+                        HorizontalOptions="Center"
+                        Clicked="CocoonButton_Clicked"/>
+
+                    <StackLayout
+                        Spacing="7"
+                        HorizontalOptions="CenterAndExpand">
+
+                        <Label
+                            Text="12 min"
+                            TextColor="Black"
+                            FontSize="14"
+                            FontAttributes="Bold"
+                            HorizontalOptions="Center"/>
+
+                        <Label
+                            Text="Cacoon"
+                            TextColor="#7D7D7D"
+                            FontSize="11"
+                            HorizontalOptions="Center"/>
+                    </StackLayout>
+
+                </StackLayout>
+
+                <StackLayout
+                    Grid.Column="2" Orientation="Vertical" Spacing="10" HorizontalOptions="CenterAndExpand">
+                    <ImageButton  Source="swatter" BackgroundColor="Transparent"  Clicked="SwatButton_Clicked" WidthRequest="30" HeightRequest="30" HorizontalOptions="Center"/>
+                    <StackLayout Spacing="7" HorizontalOptions="CenterAndExpand">
+                        <Label Text="921" TextColor="Black" FontSize="14" FontAttributes="Bold" HorizontalOptions="Center"/>
+                        <Label Text="Swat Flies" TextColor="#7D7D7D" FontSize="11" HorizontalOptions="Center"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Grid.Column="3" Orientation="Vertical" Spacing="10" HorizontalOptions="CenterAndExpand">
+                    <ImageButton  Source="basket" BackgroundColor="Transparent"  Clicked="BasketButton_Clicked" WidthRequest="30" HeightRequest="30" HorizontalOptions="Center"/>
+                    <StackLayout Spacing="7" HorizontalOptions="CenterAndExpand">
+                        <Label Text="24%" TextColor="Black" FontSize="14" FontAttributes="Bold" HorizontalOptions="Center"/>
+                        <Label Text="Market" TextColor="#7D7D7D" FontSize="11" HorizontalOptions="Center"/>
+                    </StackLayout>
+                </StackLayout>
+
+            </Grid>
+        </Frame>
+
+
+
+
+
+
+
+        </Grid>
     </ContentPage.Content>
 </ContentPage>
