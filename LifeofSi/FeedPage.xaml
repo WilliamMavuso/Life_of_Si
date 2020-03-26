@@ -45,13 +45,13 @@
                  Margin="10,115,20,20"
                 Grid.Row="1">
 
-                <Label
-                    Text="Username"
+                <Entry
+                    Text="Enter a username"
                   
                     FontSize="Subtitle"
                     VerticalOptions="Center"
                     HorizontalOptions="Center">
-                </Label>
+                </Entry>
                 <Label
                     Text="Lvl.1"
                     FontSize="19"

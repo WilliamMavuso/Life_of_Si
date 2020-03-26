@@ -19,7 +19,7 @@ namespace LifeofSi
 
         async void CocoonButton_Clicked(System.Object sender, System.EventArgs e)
         {
-            await Navigation.PushModalAsync(new CocoonPage());
+            await Navigation.PopModalAsync();
         }
 
         async void SwatButton_Clicked(System.Object sender, System.EventArgs e)
