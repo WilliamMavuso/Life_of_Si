@@ -14,7 +14,7 @@ namespace LifeofSi
 
         async void LeafButton_Clicked(System.Object sender, System.EventArgs e)
         {
-            await Navigation.PushModalAsync(new FeedPage());
+            await Navigation.PopModalAsync();
         }
 
         async void CocoonButton_Clicked(System.Object sender, System.EventArgs e)

@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage BackgroundColor="White" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="LifeofSi.FeedPage">
+<ContentPage BackgroundColor="White"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LifeofSi.FeedPage">
 
     <ContentPage.Content>
 
@@ -47,17 +50,26 @@
                  Margin="10,115,20,20"
                 Grid.Row="1">
 
+<<<<<<< HEAD
+=======
+                <!--Text="{x:Static local:userDetails.Name}"-->
+
+>>>>>>> Clean-front-end-branch
                 <Entry
                     Text="{Binding Name}"
                     Placeholder="Enter a username"
                     HorizontalTextAlignment="Center"
                     BackgroundColor="White"
+<<<<<<< HEAD
                   
+=======
+>>>>>>> Clean-front-end-branch
                     FontSize="Subtitle"
                     VerticalOptions="Center"
                     HorizontalOptions="Center">
                 </Entry>
                 <Label
+                    x:Name="level"
                     Text="Lvl.1"
                     FontSize="19"
                     VerticalOptions="Center"
@@ -76,9 +88,10 @@
                         HorizontalOptions="Center">
                     </Image>
                     <Label
+                        x:Name="leaves"
                         HorizontalOptions="CenterAndExpand"
                         Margin="0,6,0,0"
-                        Text="60/100">
+                        Text="/100">
                     </Label>
                 </StackLayout>
 
@@ -92,6 +105,7 @@
                     BackgroundColor="Transparent" 
                 WidthRequest="220"
                 HeightRequest="220"
+                Clicked="ImageButton_Clicked"
                 Source="green_worm" >
               
 

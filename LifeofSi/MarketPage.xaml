@@ -1,12 +1,18 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage BackgroundColor="White" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="LifeofSi.MarketPage">
     <ContentPage.Content>
+<<<<<<< HEAD
 
           
 
             <Grid HorizontalOptions="FillAndExpand"
                   VerticalOptions="FillAndExpand"
                   
+=======
+                    <Grid HorizontalOptions="FillAndExpand"
+                  VerticalOptions="FillAndExpand"
+
+>>>>>>> Clean-front-end-branch
                   Grid.Row="0">
               <Grid.RowDefinitions>
                 <RowDefinition Height="50"></RowDefinition>
@@ -30,7 +36,11 @@
                 </ImageButton>
 
                  <ImageButton
+<<<<<<< HEAD
                  
+=======
+
+>>>>>>> Clean-front-end-branch
                      VerticalOptions="CenterAndExpand"
                      HorizontalOptions="CenterAndExpand"
                      BackgroundColor="Transparent" 
