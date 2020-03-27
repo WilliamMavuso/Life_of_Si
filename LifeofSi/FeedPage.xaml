@@ -51,6 +51,7 @@
                 <!--Text="{x:Static local:userDetails.Name}"-->
 
                 <Entry
+                    Text="{Binding Name}"
                     Placeholder="Enter a username"
                     HorizontalTextAlignment="Center"
                     BackgroundColor="White"
@@ -59,6 +60,7 @@
                     HorizontalOptions="Center">
                 </Entry>
                 <Label
+                    x:Name="level"
                     Text="Lvl.1"
                     FontSize="19"
                     VerticalOptions="Center"
@@ -77,9 +79,10 @@
                         HorizontalOptions="Center">
                     </Image>
                     <Label
+                        x:Name="leaves"
                         HorizontalOptions="CenterAndExpand"
                         Margin="0,6,0,0"
-                        Text="60/100">
+                        Text="/100">
                     </Label>
                 </StackLayout>
 
@@ -93,6 +96,7 @@
                     BackgroundColor="Transparent" 
                 WidthRequest="220"
                 HeightRequest="220"
+                Clicked="ImageButton_Clicked"
                 Source="green_worm" >
               
 
