@@ -12,6 +12,11 @@ namespace LifeofSi
             InitializeComponent();
         }
 
+        //public static class userDetails
+        //{
+        //    public static string Name = "Will";
+        //}
+
         async void LeafButton_Clicked(System.Object sender, System.EventArgs e)
         {
             await Navigation.PushModalAsync(new FeedPage());
