@@ -107,6 +107,7 @@
             </ImageButton>
 
                 <Label
+                    x:Name="timer"
                     Margin="20,23,20,0"
                     HorizontalOptions="Center"
                     Text="Come back again in 12 Minutes"></Label>

@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using LifeofSi.Objects;
 using Xamarin.Forms;
 
 namespace LifeofSi
 {
     public partial class FeedPage : ContentPage
     {
-
+        
         int clickTotal;
 
         public FeedPage()
@@ -19,6 +19,12 @@ namespace LifeofSi
         {
             clickTotal += 1;
             leaves.Text = $"{clickTotal} /100";
+
+            if (clickTotal >= 5)
+            {
+               clickTotal--;
+               DisplayAlert("Warning", "Si is full. Come back again in 5 minutes", "Ok");
+            }
         }
 
         async void LeafButton_Clicked(System.Object sender, System.EventArgs e)
@@ -39,6 +45,11 @@ namespace LifeofSi
         async void BasketButton_Clicked(System.Object sender, System.EventArgs e)
         {
             await Navigation.PushModalAsync(new MarketPage());
+        }
+
+        void Entry_TextChanged(System.Object sender, Xamarin.Forms.TextChangedEventArgs e)
+        {
+            Application.Current.Properties["Name"] = userName.Text;
         }
     }
 }

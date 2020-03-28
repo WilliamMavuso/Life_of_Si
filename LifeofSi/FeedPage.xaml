@@ -52,6 +52,8 @@
 
                 <Entry
                     Text="{Binding Name}"
+                    TextChanged="Entry_TextChanged"
+                    x:Name="userName"
                     Placeholder="Enter a username"
                     HorizontalTextAlignment="Center"
                     BackgroundColor="White"
