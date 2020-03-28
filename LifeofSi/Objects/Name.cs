@@ -3,7 +3,7 @@ namespace LifeofSi.Objects
 {
     public class Name
     {
-
+        // random comment
         string userName;
 
         public Name()

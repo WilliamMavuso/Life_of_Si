@@ -4,6 +4,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LifeofSi.FeedPage">
 
+     <!--// random comment-->
+
     <ContentPage.Content>
 
             <Grid HorizontalOptions="FillAndExpand"
@@ -51,7 +53,7 @@
                 <!--Text="{x:Static local:userDetails.Name}"-->
 
                 <Entry
-                    Text="{Binding Name}"
+                    Text=""
                     TextChanged="Entry_TextChanged"
                     Completed="userName_Completed"
                     x:Name="userName"
