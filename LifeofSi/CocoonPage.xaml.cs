@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Timers;
-using LifeofSi.Objects;
 using Xamarin.Forms;
 
 namespace LifeofSi
 {
     public partial class CocoonPage : ContentPage
     {
+
+        int timeLeft;
 
         public CocoonPage(string parameter)
         {

@@ -51,7 +51,7 @@
                 <!--Text="{x:Static local:userDetails.Name}"-->
 
                 <Entry
-                    Text="{Binding Name}"
+                    Text=""
                     TextChanged="Entry_TextChanged"
                     Completed="userName_Completed"
                     x:Name="userName"

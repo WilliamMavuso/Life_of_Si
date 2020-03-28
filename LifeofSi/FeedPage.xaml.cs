@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using LifeofSi.Objects;
 using Xamarin.Forms;
 
 namespace LifeofSi
@@ -47,16 +46,16 @@ namespace LifeofSi
             await Navigation.PushModalAsync(new MarketPage());
         }
 
-        void Entry_TextChanged(System.Object sender, Xamarin.Forms.TextChangedEventArgs e)
-        {
-            Application.Current.Properties["Name"] = userName.Text;
-        }
+        //void Entry_TextChanged(System.Object sender, Xamarin.Forms.TextChangedEventArgs e)
+        //{
+        //    Application.Current.Properties["Name"] = userName.Text;
+        //}
 
-        void userName_Completed(System.Object sender, System.EventArgs e)
-        {
-            var text = ((Entry)sender).Text;
+        //void userName_Completed(System.Object sender, System.EventArgs e)
+        //{
+        //    var text = ((Entry)sender).Text;
 
-            //string text = userName.Text;
-        }
+        //    //string text = userName.Text;
+        //}
     }
 }
