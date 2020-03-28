@@ -59,6 +59,7 @@
                         Orientation="Vertical" Margin="10,25,20,20" Spacing="5" Grid.Column="1">
 
                  <Label
+                     x:Name="userName"
                     Text="Username"
                     FontSize="Subtitle"
                     VerticalOptions="Center"
@@ -69,13 +70,14 @@
 
         <ProgressBar x:Name="mainProgressBar"
                      Progress="0.25"
+                     Margin="0,18,0,0"
                      WidthRequest="300"
                     VerticalOptions="Center"
                     HorizontalOptions="Center">
         </ProgressBar>
 
-         <!--<ActivityIndicator  x:Name="activityIndicator" 
-                             Color="Black"/>-->
+         <ActivityIndicator  x:Name="activityIndicator" 
+                             Color="Black"/>
 
         <Label Text="%30" x:Name="lbl"
            VerticalOptions="Center" 
@@ -84,7 +86,7 @@
                 <StackLayout
                     Orientation="Horizontal"
                     HorizontalOptions="Center"
-                    Spacing="20">
+                    Spacing="5">
                 </StackLayout>
                     </StackLayout>
                 </Grid>
@@ -99,7 +101,7 @@
                 VerticalOptions="Start"
                 HorizontalOptions="Center"
                 BackgroundColor="Transparent" 
-                WidthRequest="160"
+                WidthRequest="150"
                 HeightRequest="220"
                 Source="stage_1" >
               

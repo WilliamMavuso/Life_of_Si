@@ -34,7 +34,7 @@ namespace LifeofSi
 
         async void CocoonButton_Clicked(System.Object sender, System.EventArgs e)
         {
-            await Navigation.PushModalAsync(new CocoonPage());
+            await Navigation.PushModalAsync(new CocoonPage(userName.Text));
         }
 
         async void SwatButton_Clicked(System.Object sender, System.EventArgs e)
@@ -50,6 +50,13 @@ namespace LifeofSi
         void Entry_TextChanged(System.Object sender, Xamarin.Forms.TextChangedEventArgs e)
         {
             Application.Current.Properties["Name"] = userName.Text;
+        }
+
+        void userName_Completed(System.Object sender, System.EventArgs e)
+        {
+            var text = ((Entry)sender).Text;
+
+            //string text = userName.Text;
         }
     }
 }

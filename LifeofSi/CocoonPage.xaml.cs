@@ -9,9 +9,11 @@ namespace LifeofSi
     public partial class CocoonPage : ContentPage
     {
 
-        public CocoonPage()
+        public CocoonPage(string parameter)
         {
             InitializeComponent();
+
+            userName.Text = parameter;
         }
 
         async void LeafButton_Clicked(System.Object sender, System.EventArgs e)
@@ -21,7 +23,7 @@ namespace LifeofSi
 
         async void CocoonButton_Clicked(System.Object sender, System.EventArgs e)
         {
-            await Navigation.PushModalAsync(new CocoonPage());
+            await Navigation.PushModalAsync(new CocoonPage(userName.Text));
         }
 
         async void SwatButton_Clicked(System.Object sender, System.EventArgs e)
