@@ -54,8 +54,8 @@
 
                 <Entry
                     Text=""
-                    TextChanged="Entry_TextChanged"
-                    Completed="userName_Completed"
+                    
+                  
                     x:Name="userName"
                     Placeholder="Enter a username"
                     HorizontalTextAlignment="Center"

@@ -34,11 +34,20 @@
 
                  <ImageButton
                      VerticalOptions="CenterAndExpand"
+                     Clicked="FlyButton_Clicked"
+                     x:Name="flyImage"
                      HorizontalOptions="CenterAndExpand"
                      BackgroundColor="Transparent" 
                      WidthRequest="80"
                      HeightRequest="80"
                      Source="fly">
+                     <!--<ImageButton.GestureRecognizers>
+
+                        <TapGestureRecognizer 
+				            Tapped="OnTapGestureRecognizerTapped" 
+				            NumberOfTapsRequired="2" />
+	    
+                     </ImageButton.GestureRecognizers>-->
                 </ImageButton>
 
                  <ImageButton

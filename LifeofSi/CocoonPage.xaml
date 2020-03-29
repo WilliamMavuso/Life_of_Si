@@ -79,9 +79,9 @@
          <ActivityIndicator  x:Name="activityIndicator" 
                              Color="Black"/>
 
-        <Label Text="%30" x:Name="lbl"
+        <!--<Label Text="%30" x:Name="lbl"
            VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+           HorizontalOptions="Center" />-->
 
                 <StackLayout
                     Orientation="Horizontal"
@@ -96,15 +96,25 @@
             </StackLayout>
 
             <StackLayout Grid.Row="2">
+             
+
+           
                 <ImageButton
+
                 Margin="20,-23,20,0"
+                Clicked="transformImage_Clicked"
+                x:Name="transformImage"
                 VerticalOptions="Start"
                 HorizontalOptions="Center"
                 BackgroundColor="Transparent" 
-                WidthRequest="150"
+                WidthRequest="155"
                 HeightRequest="220"
                 Source="stage_1" >
               
+                    <ImageButton.GestureRecognizers>
+                        <SwipeGestureRecognizer Direction="Left,Right" Swiped="OnSwiped"/>
+                        <!--<SwipeGestureRecognizer Direction="Right" Swiped="OnSwiped"/>-->
+                    </ImageButton.GestureRecognizers>
 
             </ImageButton>
 

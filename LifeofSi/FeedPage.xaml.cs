@@ -22,7 +22,7 @@ namespace LifeofSi
             if (clickTotal >= 5)
             {
                clickTotal--;
-               DisplayAlert("Warning", "Si is full. Come back again in 5 minutes", "Ok");
+               DisplayAlert("Warning " + userName.Text + "!", "Si is full. Come back again in 5 minutes", "Ok");
             }
         }
 
