@@ -1,17 +1,24 @@
 ﻿using System;
 using System.Collections.Generic;
+using LifeofSi.Objects;
+//using System.Threading;
+using System.Timers;
 using Xamarin.Forms;
 
 namespace LifeofSi
 {
     public partial class FeedPage : ContentPage
     {
-        
+
+        private TimeKeeper timeKeeper = new TimeKeeper();
+        private static Timer timer;
+
         int clickTotal;
 
         public FeedPage()
         {
             InitializeComponent();
+            StartTimer();
         }
 
         void ImageButton_Clicked(object sender, EventArgs e)
@@ -23,6 +30,50 @@ namespace LifeofSi
             {
                clickTotal--;
                DisplayAlert("Warning " + userName.Text + "!", "Si is full. Come back again in 5 minutes", "Ok");
+            }
+        }
+
+        //Timer events
+
+            private void StartTimer()
+        {
+            timer = new Timer();
+
+            timer.Interval = 1000;
+            timer.Enabled = true;
+            timer.Elapsed += UpdateTimedData;
+            timer.Start();
+        }
+
+        private void ResetTimer()
+        {
+            timeKeeper.StartTime = DateTime.Now;
+            StartTimer();
+        }
+
+        private void UpdateTimedData(object sender, ElapsedEventArgs e)
+        {
+            TimeSpan timeElapsed = e.SignalTime - timeKeeper.StartTime;
+
+            //CocoonState newCocoonState = Coccon.CurrentCocconState;
+
+            if (timeElapsed.TotalSeconds < 10)
+            {
+                //newCocoonState = CocoonState.stage1;
+            }
+            else if (timeElapsed.TotalSeconds < 20)
+            {
+                //newCocoonState = CocoonState.stage2;
+            }
+            else if (timeElapsed.TotalSeconds >= 20)
+            {
+                //newCocoonState = CocoonState.stage3;
+            }
+
+            if (/*newCocoonState != Coccon.CurrentCocoonState*/ timeElapsed.TotalSeconds >= 20)
+            {
+                //Cocoon.CurrentCocoonState = newCocoonState;
+                //updateUi();
             }
         }
 

@@ -15,6 +15,14 @@ namespace LifeofSi
             InitializeComponent();
             userName.Text = parameter;
 
+            //Device.StartTimer(TimeSpan.FromSeconds(x), update_data); //replace x with required seconds
+
+            //public bool update_data()
+            //{
+            //    //Code to run frequently
+            //    return true;
+            //}
+
 
             //Timer T = new Timer();
             //int Minutes = 5;
@@ -73,5 +81,6 @@ namespace LifeofSi
         {
             (sender as ImageButton).Source = ImageSource.FromFile("stage_2.png");
         }
+
     }
 }
