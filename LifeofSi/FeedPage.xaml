@@ -84,7 +84,7 @@
                         HorizontalOptions="Center">
                     </Image>
                     <Label
-                        x:Name="leaves"
+                        x:Name="Xplabel"
                         HorizontalOptions="CenterAndExpand"
                         Margin="0,6,0,0"
                         Text="/100">
@@ -95,6 +95,7 @@
 
             <StackLayout Grid.Row="2">
                 <ImageButton
+                    x:Name="siImage"
                      Margin="10,0,-2,20"
                 VerticalOptions="CenterAndExpand"
                 HorizontalOptions="Center"

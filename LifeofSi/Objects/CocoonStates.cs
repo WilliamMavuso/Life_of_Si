@@ -47,10 +47,5 @@ namespace LifeofSi.Objects
 
         }
 
-        //public void FeedSi()
-        //{
-        //    Xp = Xp++;
-        //}
-
     }
 }
