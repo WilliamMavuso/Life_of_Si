@@ -122,7 +122,18 @@
                     x:Name="timer"
                     Margin="20,23,20,0"
                     HorizontalOptions="Center"
-                    Text="Come back again in 12 Minutes"></Label>
+                    Text="Come back again in 12 Minutes">
+                </Label>
+
+                  <!--<StackLayout>
+                     <Label Text="{Binding Minutes}" FontSize="15" FontAttributes="Bold" TextColor="Black" HorizontalOptions="End"/>
+                     <Label Text="MINUTES" FontSize="10" TextColor="White" Opacity="0.5" HorizontalOptions="End" Margin="0,-5,0,0"/>
+                   </StackLayout>
+                  <StackLayout>
+                     <Label Text="{Binding Seconds}" FontSize="15" FontAttributes="Bold" TextColor="Black" HorizontalOptions="End"/>
+                     <Label Text="SECONDS" FontSize="10" TextColor="White" Opacity="0.5" HorizontalOptions="End" Margin="0,-5,0,0"/>
+                   </StackLayout>-->
+
             </StackLayout>
 
                     <Frame

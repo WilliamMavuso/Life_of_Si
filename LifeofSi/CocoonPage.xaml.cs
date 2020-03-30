@@ -5,8 +5,10 @@ using Xamarin.Forms;
 
 namespace LifeofSi
 {
+
     public partial class CocoonPage : ContentPage
     {
+
 
         //int timeLeft;
 
@@ -35,7 +37,9 @@ namespace LifeofSi
 
             //    return true; // True = Repeat again, False = Stop the timer
             //});
+
         }
+
 
         //public Fivemintimer()
         //{
