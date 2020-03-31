@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Timers;
+using System.Diagnostics;
 using Xamarin.Forms;
 
 namespace LifeofSi
@@ -11,6 +12,7 @@ namespace LifeofSi
 
 
         //int timeLeft;
+        int tapCount;
 
         public CocoonPage(string parameter)
         {
@@ -70,14 +72,16 @@ namespace LifeofSi
 
         void OnSwiped(object sender, SwipedEventArgs e)
         {
+            timerUpdate.Text = $"You swiped: {e.Direction.ToString()}";
+
             switch (e.Direction)
             {
                 case SwipeDirection.Left:
-                    //transformImage.Source = Image.Source = stage_2;
+                    (sender as ImageButton).Source = ImageSource.FromFile("stage_2.png");
 
                     break;
                 case SwipeDirection.Right:
-                    // Handle the swipe
+                    (sender as ImageButton).Source = ImageSource.FromFile("stage_3.png");
                     break;
             }
         }
@@ -102,10 +106,31 @@ namespace LifeofSi
             await Navigation.PushModalAsync(new MarketPage());
         }
 
-        void transformImage_Clicked(System.Object sender, System.EventArgs e)
+        void OnTapGestureRecognizerTapped(object sender, EventArgs args)
+
         {
-            (sender as ImageButton).Source = ImageSource.FromFile("stage_2.png");
+            tapCount++;
+            var imageSender = (Image)sender;
+
+
+            if (tapCount % 2 == 1)
+            {
+                imageSender.Source = "moth";
+                timerUpdate.Text = "Si is now a moth.";
+                mainProgressBar.Progress = 0.5;
+            }
+            else if (tapCount % 2 == 0)
+            {
+                imageSender.Source = "stage_3";
+                timerUpdate.Text = "Yay! Si has evolved into a butterfly.";
+                mainProgressBar.Progress = 1;
+            }
+            else 
+            {
+                imageSender.Source = "stage_1";
+            }
         }
+
 
     }
 }

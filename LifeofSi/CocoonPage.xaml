@@ -99,10 +99,10 @@
              
 
            
-                <ImageButton
+                <!--<Image
 
                 Margin="20,-23,20,0"
-                Clicked="transformImage_Clicked"
+               
                 x:Name="transformImage"
                 VerticalOptions="Start"
                 HorizontalOptions="Center"
@@ -111,18 +111,34 @@
                 HeightRequest="220"
                 Source="stage_1" >
               
-                    <ImageButton.GestureRecognizers>
+                    <Image.GestureRecognizers>
                         <SwipeGestureRecognizer Direction="Left,Right" Swiped="OnSwiped"/>
-                        <!--<SwipeGestureRecognizer Direction="Right" Swiped="OnSwiped"/>-->
-                    </ImageButton.GestureRecognizers>
+                        <SwipeGestureRecognizer Direction="Right" Swiped="OnSwiped"/>
+                    </Image.GestureRecognizers>
 
-            </ImageButton>
+            </Image>-->
+
+                <Image Source="stage_1"
+                Margin="20,-23,20,0"
+                x:Name="transformImage"
+                VerticalOptions="Start"
+                HorizontalOptions="Center"
+                BackgroundColor="Transparent" 
+                WidthRequest="155"
+                HeightRequest="220">
+                       
+    <Image.GestureRecognizers>
+        <TapGestureRecognizer
+                Tapped="OnTapGestureRecognizerTapped"
+                NumberOfTapsRequired="2" />
+  </Image.GestureRecognizers>
+</Image>
 
                 <Label
                     x:Name="timerUpdate"
                     Margin="20,23,20,0"
                     HorizontalOptions="Center"
-                    Text="Swipe left to transform. ">
+                    Text="Tap to transform Si. ">
                 </Label>
 
                   <!--<StackLayout>

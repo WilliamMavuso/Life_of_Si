@@ -157,13 +157,25 @@
     <ImageAsset Include="Assets.xcassets\stage_2.imageset\stage_2.png" />
     <ImageAsset Include="Assets.xcassets\stage_2.imageset\stage_22x.png" />
     <ImageAsset Include="Assets.xcassets\stage_2.imageset\stage_23x.png" />
-    <ImageAsset Include="Assets.xcassets\stage_3.imageset\stage_3.png" />
-    <ImageAsset Include="Assets.xcassets\stage_3.imageset\stage_32x.png" />
-    <ImageAsset Include="Assets.xcassets\stage_3.imageset\stage_33x.png" />
     <ImageAsset Include="Assets.xcassets\fly.imageset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\fly.imageset\fly.png" />
     <ImageAsset Include="Assets.xcassets\fly.imageset\fly2x.png" />
     <ImageAsset Include="Assets.xcassets\fly.imageset\fly3x.png" />
+    <ImageAsset Include="Assets.xcassets\moth.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\moth.imageset\moth.png" />
+    <ImageAsset Include="Assets.xcassets\moth.imageset\moth2x.png" />
+    <ImageAsset Include="Assets.xcassets\moth.imageset\moth3x.png" />
+    <ImageAsset Include="Assets.xcassets\pink_worm.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\purple_worm.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\pink_worm.imageset\pink_worm.png" />
+    <ImageAsset Include="Assets.xcassets\pink_worm.imageset\pink_worm2x.png" />
+    <ImageAsset Include="Assets.xcassets\pink_worm.imageset\pink_worm3x.png" />
+    <ImageAsset Include="Assets.xcassets\purple_worm.imageset\purple_worm.png" />
+    <ImageAsset Include="Assets.xcassets\purple_worm.imageset\purple_worm2x.png" />
+    <ImageAsset Include="Assets.xcassets\purple_worm.imageset\purple_worm3x.png" />
+    <ImageAsset Include="Assets.xcassets\stage_3.imageset\stage_3-1.png" />
+    <ImageAsset Include="Assets.xcassets\stage_3.imageset\stage_32x-1.png" />
+    <ImageAsset Include="Assets.xcassets\stage_3.imageset\stage_33x-1.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -198,5 +210,8 @@
     <Folder Include="Assets.xcassets\stage_2.imageset\" />
     <Folder Include="Assets.xcassets\stage_3.imageset\" />
     <Folder Include="Assets.xcassets\fly.imageset\" />
+    <Folder Include="Assets.xcassets\moth.imageset\" />
+    <Folder Include="Assets.xcassets\pink_worm.imageset\" />
+    <Folder Include="Assets.xcassets\purple_worm.imageset\" />
   </ItemGroup>
 </Project>

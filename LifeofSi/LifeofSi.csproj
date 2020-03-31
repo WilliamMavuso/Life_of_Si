@@ -15,7 +15,4 @@
     <PackageReference Include="Xamarin.Essentials" Version="1.5.2" />
     <PackageReference Include="ITLec.XamarinForms.Tool.AdvancedProgressBar" Version="2017.10.27" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Objects\" />
-  </ItemGroup>
 </Project>

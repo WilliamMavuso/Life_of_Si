@@ -38,7 +38,7 @@
             <ColumnDefinition Width="33.33*" />
             <ColumnDefinition Width="33.33*" />
         </Grid.ColumnDefinitions>
-        <ImageButton Source="fly" WidthRequest="80" HeightRequest="80" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <ImageButton x:Name="flyImage" Source="fly" WidthRequest="80" HeightRequest="80" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center"/>
         <ImageButton Source="fly" WidthRequest="80" HeightRequest="80"  Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center"/>
         <ImageButton Source="fly"  WidthRequest="80" HeightRequest="80" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center"/>          
      </Grid>

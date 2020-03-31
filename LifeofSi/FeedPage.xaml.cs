@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using LifeofSi.Objects;
 //using System.Threading;
 using System.Timers;
 using Xamarin.Forms;
