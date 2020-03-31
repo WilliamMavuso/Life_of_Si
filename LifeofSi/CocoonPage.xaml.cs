@@ -16,6 +16,7 @@ namespace LifeofSi
         {
             InitializeComponent();
             userName.Text = parameter;
+            Setup();
 
             //Device.StartTimer(TimeSpan.FromSeconds(x), update_data); //replace x with required seconds
 
@@ -46,6 +47,26 @@ namespace LifeofSi
         //    T.Interval = 1000;
         //    T.Tick += new EventHandler(T_Tick);
         //}
+
+        private void Setup()
+        {
+            //AllEvents = GetEvents();
+            //eventList.ItemsSource = AllEvents;
+
+            Device.StartTimer(new TimeSpan(0, 0, 1), () =>
+            {
+                //foreach (var evt in AllEvents)
+                //{
+                //    var timespan = evt.Date - DateTime.Now;
+                //    evt.Timespan = timespan;
+                //}
+
+                //eventList.ItemsSource = null;
+                //eventList.ItemsSource = AllEvents;
+
+                return true;
+            });
+        }
 
         void OnSwiped(object sender, SwipedEventArgs e)
         {

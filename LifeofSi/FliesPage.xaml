@@ -27,55 +27,25 @@
                    >
                 </ImageButton>
 
-                            <StackLayout
-                 Margin="10,115,20,20"
-                Grid.Row="1"
-                Orientation="Horizontal">
-
-                 <ImageButton
-                     VerticalOptions="CenterAndExpand"
-                     Clicked="FlyButton_Clicked"
-                     x:Name="flyImage"
-                     HorizontalOptions="CenterAndExpand"
-                     BackgroundColor="Transparent" 
-                     WidthRequest="80"
-                     HeightRequest="80"
-                     Source="fly">
-                     <!--<ImageButton.GestureRecognizers>
-
-                        <TapGestureRecognizer 
-				            Tapped="OnTapGestureRecognizerTapped" 
-				            NumberOfTapsRequired="2" />
-	    
-                     </ImageButton.GestureRecognizers>-->
-                </ImageButton>
-
-                 <ImageButton
-                     VerticalOptions="CenterAndExpand"
-                     HorizontalOptions="CenterAndExpand"
-                     BackgroundColor="Transparent" 
-                     WidthRequest="80"
-                     HeightRequest="80"
-                     Source="fly">
-                </ImageButton>
-
-                <ImageButton
-                     VerticalOptions="CenterAndExpand"
-                     HorizontalOptions="CenterAndExpand"
-                     BackgroundColor="Transparent" 
-                     WidthRequest="80"
-                     HeightRequest="80"
-                     Source="fly">
-                </ImageButton>
-
-            </StackLayout>
 
 
 
             </StackLayout>
+                                                <StackLayout Grid.Row="1">
+                                     <Grid  Margin="33,80,20,20" ColumnSpacing="8" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="33.33*" />
+            <ColumnDefinition Width="33.33*" />
+            <ColumnDefinition Width="33.33*" />
+        </Grid.ColumnDefinitions>
+        <ImageButton Source="fly" WidthRequest="80" HeightRequest="80" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <ImageButton Source="fly" WidthRequest="80" HeightRequest="80"  Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <ImageButton Source="fly"  WidthRequest="80" HeightRequest="80" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center"/>          
+     </Grid>
+                        </StackLayout>
 
             <StackLayout Grid.Row="2">
-                <ImageButton
+                <Image
                      Margin="10,0,-2,20"
                 VerticalOptions="CenterAndExpand"
                 HorizontalOptions="Center"
@@ -85,12 +55,38 @@
                 Source="green_worm" >
               
 
-            </ImageButton>
+            </Image>
 
             </StackLayout><!--Main image-->
 
+                                                <StackLayout Grid.Row="2">
+                                     <Grid  Margin="45,10,20,20" ColumnSpacing="8" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="33.33*" />
+            <ColumnDefinition Width="33.33*" />
+            <ColumnDefinition Width="33.33*" />
+        </Grid.ColumnDefinitions>
+        <ImageButton Source="fly" WidthRequest="80" HeightRequest="80" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <ImageButton Source="fly" WidthRequest="80" HeightRequest="80"  Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <ImageButton Source="fly"  WidthRequest="80" HeightRequest="80" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center"/>          
+     </Grid>
+                        </StackLayout>
 
-            <StackLayout
+         <StackLayout Grid.Row="2">
+            <Grid  Margin="45,150,20,20" ColumnSpacing="8" >
+                    <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="33.33*" />
+                    <ColumnDefinition Width="33.33*" />
+                    <ColumnDefinition Width="33.33*" />
+                </Grid.ColumnDefinitions>
+                <ImageButton Source="fly" WidthRequest="80" HeightRequest="80" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center"/>
+                <ImageButton Source="fly" WidthRequest="80" HeightRequest="80"  Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center"/>
+                <ImageButton Source="fly"  WidthRequest="80" HeightRequest="80" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center"/>          
+             </Grid>
+       </StackLayout>
+
+
+            <!--<StackLayout
                  Margin="10,115,20,20"
                 Grid.Row="1">
                             <StackLayout
@@ -162,7 +158,7 @@
 
             </StackLayout>
 
-            </StackLayout>
+            </StackLayout>-->
 
 
 

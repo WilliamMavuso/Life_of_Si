@@ -119,10 +119,10 @@
             </ImageButton>
 
                 <Label
-                    x:Name="timer"
+                    x:Name="timerUpdate"
                     Margin="20,23,20,0"
                     HorizontalOptions="Center"
-                    Text="Come back again in 12 Minutes">
+                    Text="Swipe left to transform. ">
                 </Label>
 
                   <!--<StackLayout>

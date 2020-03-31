@@ -34,8 +34,8 @@ namespace LifeofSi
 
         async void FlyButton_Clicked(System.Object sender, System.EventArgs e)
         {
-            //await flyImage.FadeTo(0, 1000, Easing.SinOut);
-            //flyImage.IsVisible = false;
+            await flyImage.FadeTo(0, 1000, Easing.SinOut);
+            flyImage.IsVisible = false;
             await DisplayAlert("Test", "Clicked!!", "OK");
 
         }
