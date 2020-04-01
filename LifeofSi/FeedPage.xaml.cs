@@ -42,7 +42,7 @@ namespace LifeofSi
             if (clickTotal == 30)
             {
                 clickTotal--;
-                DisplayAlert("Congradulations " + userName.Text, "Si is now completely full.", "Ok");
+                DisplayAlert("Congratulations " + userName.Text + "!", "Si is now completely full.", "Ok");
             }
         }
 

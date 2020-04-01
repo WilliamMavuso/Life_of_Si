@@ -97,10 +97,10 @@
             <StackLayout Grid.Row="2">
                 <ImageButton
                     x:Name="siImage"
-                     Margin="10,0,-2,20"
+                Margin="10,0,-2,20"
                 VerticalOptions="CenterAndExpand"
                 HorizontalOptions="Center"
-                    BackgroundColor="Transparent" 
+                BackgroundColor="Transparent" 
                 WidthRequest="220"
                 HeightRequest="220"
                 Clicked="ImageButton_Clicked"

@@ -38,11 +38,15 @@ namespace LifeofSi
         {
             await flyImage.FadeTo(0, 1000, Easing.SinOut);
             flyImage.IsVisible = false;
+            await flyImage3.FadeTo(0, 1000, Easing.SinOut);
+            flyImage.IsVisible = false;
         }
 
         async void FlyButton_Clicked1(System.Object sender, System.EventArgs e)
         {
             await flyImage1.FadeTo(0, 1000, Easing.SinOut);
+            flyImage.IsVisible = false;
+            await flyImage4.FadeTo(0, 1000, Easing.SinOut);
             flyImage.IsVisible = false;
         }
 
@@ -50,6 +54,8 @@ namespace LifeofSi
         {
 
             await flyImage2.FadeTo(0, 1000, Easing.SinOut);
+            flyImage.IsVisible = false;
+            await flyImage5.FadeTo(0, 1000, Easing.SinOut);
             flyImage.IsVisible = false;
         }
 
