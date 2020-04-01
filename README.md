@@ -6,16 +6,15 @@ This is a demo project which aims to showcase the cross-platform features of C# 
 
 The following instructions will help get you a copy of the project and have it up and running on your local machine for development and testing purposes.<br>
 
-Prerequisites for development: <br> - The latest version of Visual Studio is required. The latest version can be downloaded from <a rel="https://visualstudio.microsoft.com/downloads/">here.</a>
+<h4>Prerequisites for development:</h4> - The latest version of Visual Studio is required. <br> -The latest version can be downloaded from <a href="https://visualstudio.microsoft.com/downloads/">here.</a>
+<h4>Installation:</h4> 
+- Clone the repo<br>
+git clone or download the zip file from https://github.com/WilliamMavuso/Life_of_Si <br>
+- Open the project <br>
+- Use Open Workspace in Visual Studio. <br>
 
-Installing
-Clone the repo
-git clone https://github.com/WilliamMavuso/Life_of_Si
-Open the project
-Use Open Workspace in Visual Studio.
-
-Unit Tests
-These are the unit tests that can be run on this system
+<h4>Unit Tests</h4>
+These are the unit tests that can be run on this system <br>
 
 GetLevelFromXpTest
 This test checks if the correct level is selected based on the Xp level. Navigate to Test Explorer and run unit tests.
