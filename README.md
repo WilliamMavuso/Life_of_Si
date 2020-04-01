@@ -11,10 +11,10 @@ The following instructions will help get you a copy of the project and have it u
 - Clone the repo<br>
 git clone or download the zip file from https://github.com/WilliamMavuso/Life_of_Si <br>
 - Open the project <br>
-- Use Open Workspace in Visual Studio.
+- Use Open Workspace in Visual Studio. <br>
 
-Unit Tests
-These are the unit tests that can be run on this system
+<h4>Unit Tests</h4>
+These are the unit tests that can be run on this system <br>
 
 GetLevelFromXpTest
 This test checks if the correct level is selected based on the Xp level. Navigate to Test Explorer and run unit tests.
