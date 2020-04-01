@@ -9,8 +9,8 @@ The following instructions will help get you a copy of the project and have it u
 <h4>Prerequisites for development:</h4> - The latest version of Visual Studio is required. <br> -The latest version can be downloaded from <a href="https://visualstudio.microsoft.com/downloads/">here.</a>
 <h4>Installation:</h4> 
 - Clone the repo<br>
-git clone or download the zip file from https://github.com/WilliamMavuso/Life_of_Si
-- Open the project
+git clone or download the zip file from https://github.com/WilliamMavuso/Life_of_Si <br>
+- Open the project <br>
 - Use Open Workspace in Visual Studio.
 
 Unit Tests
