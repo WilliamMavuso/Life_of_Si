@@ -9,12 +9,20 @@
       "idiom": "universal"
     },
     {
+<<<<<<< HEAD
       "filename": "purple_worm2x.png",
+=======
+      "filename": "purple_worm-1.png",
+>>>>>>> Fresh-branch
       "scale": "2x",
       "idiom": "universal"
     },
     {
+<<<<<<< HEAD
       "filename": "purple_worm3x.png",
+=======
+      "filename": "purple_worm-2.png",
+>>>>>>> Fresh-branch
       "scale": "3x",
       "idiom": "universal"
     },

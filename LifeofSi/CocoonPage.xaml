@@ -56,7 +56,7 @@
                     </StackLayout>
 
                     <StackLayout
-                        Orientation="Vertical" Margin="10,25,20,20" Spacing="5" Grid.Column="1">
+                        Orientation="Vertical" Margin="10,25,20,20" Spacing="3" Grid.Column="1">
 
                  <Label
                      x:Name="userName"
@@ -69,7 +69,7 @@
 
 
         <ProgressBar x:Name="mainProgressBar"
-                     Progress="0.25"
+                     Progress="0"
                      Margin="0,18,0,0"
                      WidthRequest="300"
                     VerticalOptions="Center"
@@ -79,9 +79,9 @@
          <ActivityIndicator  x:Name="activityIndicator" 
                              Color="Black"/>
 
-        <!--<Label Text="%30" x:Name="lbl"
+        <Label Text="0%" x:Name="percentage"
            VerticalOptions="Center" 
-           HorizontalOptions="Center" />-->
+           HorizontalOptions="Center" />
 
                 <StackLayout
                     Orientation="Horizontal"
@@ -99,6 +99,7 @@
              
 
            
+<<<<<<< HEAD
                 <!--<Image
 
                 Margin="20,-23,20,0"
@@ -133,10 +134,30 @@
                 NumberOfTapsRequired="2" />
   </Image.GestureRecognizers>
 </Image>
+=======
+                <Image Source="stage_1"
+                    Margin="20,-23,20,0"
+                    x:Name="transformImage"
+                    VerticalOptions="Start"
+                    HorizontalOptions="Center"
+                    BackgroundColor="Transparent" 
+                    WidthRequest="155"
+                    HeightRequest="220">
+                       
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Tapped="OnTapGestureRecognizerTapped"
+                            NumberOfTapsRequired="2" />
+                    </Image.GestureRecognizers>
+                </Image>
+
+
+>>>>>>> Fresh-branch
 
                 <Label
                     x:Name="timerUpdate"
                     Margin="20,23,20,0"
+                    FontSize="14"
                     HorizontalOptions="Center"
                     Text="Tap to transform Si. ">
                 </Label>

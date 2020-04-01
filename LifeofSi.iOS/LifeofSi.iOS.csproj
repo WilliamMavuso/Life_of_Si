@@ -149,23 +149,32 @@
     <ImageAsset Include="Assets.xcassets\menu.imageset\menu2.png" />
     <ImageAsset Include="Assets.xcassets\menu.imageset\menu3.png" />
     <ImageAsset Include="Assets.xcassets\stage_1.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\stage_2.imageset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\stage_3.imageset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\stage_1.imageset\stage_1.png" />
     <ImageAsset Include="Assets.xcassets\stage_1.imageset\stage_12x.png" />
     <ImageAsset Include="Assets.xcassets\stage_1.imageset\stage_13x.png" />
+<<<<<<< HEAD
     <ImageAsset Include="Assets.xcassets\stage_2.imageset\stage_2.png" />
     <ImageAsset Include="Assets.xcassets\stage_2.imageset\stage_22x.png" />
     <ImageAsset Include="Assets.xcassets\stage_2.imageset\stage_23x.png" />
+=======
+>>>>>>> Fresh-branch
     <ImageAsset Include="Assets.xcassets\fly.imageset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\fly.imageset\fly.png" />
     <ImageAsset Include="Assets.xcassets\fly.imageset\fly2x.png" />
     <ImageAsset Include="Assets.xcassets\fly.imageset\fly3x.png" />
+<<<<<<< HEAD
+=======
+    <ImageAsset Include="Assets.xcassets\stage_3.imageset\stage_3-1.png" />
+    <ImageAsset Include="Assets.xcassets\stage_3.imageset\stage_32x-1.png" />
+    <ImageAsset Include="Assets.xcassets\stage_3.imageset\stage_33x-1.png" />
+>>>>>>> Fresh-branch
     <ImageAsset Include="Assets.xcassets\moth.imageset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\moth.imageset\moth.png" />
     <ImageAsset Include="Assets.xcassets\moth.imageset\moth2x.png" />
     <ImageAsset Include="Assets.xcassets\moth.imageset\moth3x.png" />
     <ImageAsset Include="Assets.xcassets\pink_worm.imageset\Contents.json" />
+<<<<<<< HEAD
     <ImageAsset Include="Assets.xcassets\purple_worm.imageset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\pink_worm.imageset\pink_worm.png" />
     <ImageAsset Include="Assets.xcassets\pink_worm.imageset\pink_worm2x.png" />
@@ -176,6 +185,13 @@
     <ImageAsset Include="Assets.xcassets\stage_3.imageset\stage_3-1.png" />
     <ImageAsset Include="Assets.xcassets\stage_3.imageset\stage_32x-1.png" />
     <ImageAsset Include="Assets.xcassets\stage_3.imageset\stage_33x-1.png" />
+=======
+    <ImageAsset Include="Assets.xcassets\pink_worm.imageset\pin_worm.png" />
+    <ImageAsset Include="Assets.xcassets\purple_worm.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\purple_worm.imageset\purple_worm.png" />
+    <ImageAsset Include="Assets.xcassets\purple_worm.imageset\purple_worm-1.png" />
+    <ImageAsset Include="Assets.xcassets\purple_worm.imageset\purple_worm-2.png" />
+>>>>>>> Fresh-branch
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -213,5 +229,9 @@
     <Folder Include="Assets.xcassets\moth.imageset\" />
     <Folder Include="Assets.xcassets\pink_worm.imageset\" />
     <Folder Include="Assets.xcassets\purple_worm.imageset\" />
+<<<<<<< HEAD
+=======
+    <Folder Include="Assets.xcassets\stage_4.imageset\" />
+>>>>>>> Fresh-branch
   </ItemGroup>
 </Project>

@@ -28,7 +28,7 @@
                 </ImageButton>
 
 
-
+                
 
             </StackLayout>
                                                 <StackLayout Grid.Row="1">
@@ -38,9 +38,15 @@
             <ColumnDefinition Width="33.33*" />
             <ColumnDefinition Width="33.33*" />
         </Grid.ColumnDefinitions>
+<<<<<<< HEAD
         <ImageButton x:Name="flyImage" Source="fly" WidthRequest="80" HeightRequest="80" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center"/>
         <ImageButton Source="fly" WidthRequest="80" HeightRequest="80"  Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center"/>
         <ImageButton Source="fly"  WidthRequest="80" HeightRequest="80" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center"/>          
+=======
+        <ImageButton Source="fly" x:Name="flyImage" Clicked="FlyButton_Clicked" WidthRequest="80" HeightRequest="80" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <ImageButton Source="fly" x:Name="flyImage1" Clicked="FlyButton_Clicked1"  WidthRequest="80" HeightRequest="80"  Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <ImageButton Source="fly" x:Name="flyImage2" Clicked="FlyButton_Clicked2"  WidthRequest="80" HeightRequest="80" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center"/>          
+>>>>>>> Fresh-branch
      </Grid>
                         </StackLayout>
 
@@ -66,9 +72,9 @@
             <ColumnDefinition Width="33.33*" />
             <ColumnDefinition Width="33.33*" />
         </Grid.ColumnDefinitions>
-        <ImageButton Source="fly" WidthRequest="80" HeightRequest="80" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center"/>
-        <ImageButton Source="fly" WidthRequest="80" HeightRequest="80"  Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center"/>
-        <ImageButton Source="fly"  WidthRequest="80" HeightRequest="80" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center"/>          
+        <ImageButton Source="fly" x:Name="flyImage3" Clicked="FlyButton_Clicked3"  WidthRequest="80" HeightRequest="80" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <ImageButton Source="fly" x:Name="flyImage4" Clicked="FlyButton_Clicked4"   WidthRequest="80" HeightRequest="80"  Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <ImageButton Source="fly" x:Name="flyImage5" Clicked="FlyButton_Clicked5"  WidthRequest="80" HeightRequest="80" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center"/>          
      </Grid>
                         </StackLayout>
 
@@ -79,9 +85,9 @@
                     <ColumnDefinition Width="33.33*" />
                     <ColumnDefinition Width="33.33*" />
                 </Grid.ColumnDefinitions>
-                <ImageButton Source="fly" WidthRequest="80" HeightRequest="80" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center"/>
-                <ImageButton Source="fly" WidthRequest="80" HeightRequest="80"  Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center"/>
-                <ImageButton Source="fly"  WidthRequest="80" HeightRequest="80" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center"/>          
+                <ImageButton Source="fly" x:Name="flyImage6" Clicked="FlyButton_Clicked6"   WidthRequest="80" HeightRequest="80" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center"/>
+                <ImageButton Source="fly" x:Name="flyImage7" Clicked="FlyButton_Clicked7"   WidthRequest="80" HeightRequest="80"  Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center"/>
+                <ImageButton Source="fly" x:Name="flyImage8" Clicked="FlyButton_Clicked8"   WidthRequest="80" HeightRequest="80" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center"/>          
              </Grid>
        </StackLayout>
 

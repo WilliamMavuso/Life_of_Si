@@ -8487,6 +8487,7 @@ namespace LifeofSi.Droid
 			public const int notify_panel_notification_icon_bg = 2131165344;
 			
 			// aapt resource value: 0x7F0700A1
+<<<<<<< HEAD
 			public const int pink_worm = 2131165345;
 			
 			// aapt resource value: 0x7F0700A2
@@ -8596,6 +8597,75 @@ namespace LifeofSi.Droid
 			
 			// aapt resource value: 0x7F0700C5
 			public const int tooltip_frame_light = 2131165381;
+=======
+			public const int purple_worm = 2131165345;
+			
+			// aapt resource value: 0x7F0700A2
+			public const int stage_1 = 2131165346;
+			
+			// aapt resource value: 0x7F0700A3
+			public const int stage_12x = 2131165347;
+			
+			// aapt resource value: 0x7F0700A4
+			public const int stage_13x = 2131165348;
+			
+			// aapt resource value: 0x7F0700A5
+			public const int stage_14x = 2131165349;
+			
+			// aapt resource value: 0x7F0700A6
+			public const int stage_1_15x = 2131165350;
+			
+			// aapt resource value: 0x7F0700A7
+			public const int stage_2 = 2131165351;
+			
+			// aapt resource value: 0x7F0700A8
+			public const int stage_22x = 2131165352;
+			
+			// aapt resource value: 0x7F0700A9
+			public const int stage_23x = 2131165353;
+			
+			// aapt resource value: 0x7F0700AA
+			public const int stage_24x = 2131165354;
+			
+			// aapt resource value: 0x7F0700AB
+			public const int stage_2_15x = 2131165355;
+			
+			// aapt resource value: 0x7F0700AC
+			public const int stage_3 = 2131165356;
+			
+			// aapt resource value: 0x7F0700AD
+			public const int stage_32x = 2131165357;
+			
+			// aapt resource value: 0x7F0700AE
+			public const int stage_33x = 2131165358;
+			
+			// aapt resource value: 0x7F0700AF
+			public const int stage_34x = 2131165359;
+			
+			// aapt resource value: 0x7F0700B0
+			public const int stage_3_15x = 2131165360;
+			
+			// aapt resource value: 0x7F0700B1
+			public const int swatter = 2131165361;
+			
+			// aapt resource value: 0x7F0700B2
+			public const int swatter1_5x = 2131165362;
+			
+			// aapt resource value: 0x7F0700B3
+			public const int swatter2x = 2131165363;
+			
+			// aapt resource value: 0x7F0700B4
+			public const int swatter3x = 2131165364;
+			
+			// aapt resource value: 0x7F0700B5
+			public const int swatter4x = 2131165365;
+			
+			// aapt resource value: 0x7F0700B6
+			public const int tooltip_frame_dark = 2131165366;
+			
+			// aapt resource value: 0x7F0700B7
+			public const int tooltip_frame_light = 2131165367;
+>>>>>>> Fresh-branch
 			
 			static Drawable()
 			{

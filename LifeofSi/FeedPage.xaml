@@ -40,6 +40,7 @@
                      BackgroundColor="Transparent" 
                      WidthRequest="80"
                      HeightRequest="80"
+                     x:Name="avatar"
                      Source="green_worm">
                 </ImageButton>
 
@@ -87,7 +88,7 @@
                         x:Name="Xplabel"
                         HorizontalOptions="CenterAndExpand"
                         Margin="0,6,0,0"
-                        Text="/100">
+                        Text="/30">
                     </Label>
                 </StackLayout>
 

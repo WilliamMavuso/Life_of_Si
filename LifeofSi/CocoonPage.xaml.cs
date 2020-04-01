@@ -131,6 +131,32 @@ namespace LifeofSi
             }
         }
 
+<<<<<<< HEAD
+=======
+        void OnTapGestureRecognizerTapped(object sender, EventArgs args)
+
+        {
+            tapCount++;
+            var imageSender = (Image)sender;
+
+
+            if (tapCount % 2 == 1)
+            {
+                imageSender.Source = "moth.png";
+                timerUpdate.Text = "Si is now a moth.";
+                percentage.Text = "50%";
+                mainProgressBar.Progress = 0.5;
+            }
+            else if (tapCount % 2 == 0)
+            {
+                imageSender.Source = "stage_3.png";
+                timerUpdate.Text = "Yay! Si has evolved into a butterfly.";
+                percentage.Text = "100%";
+                mainProgressBar.Progress = 1;
+            }
+
+        }
+>>>>>>> Fresh-branch
 
     }
 }

@@ -342,6 +342,7 @@
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
+<<<<<<< HEAD
     <AndroidResource Include="Resources\drawable\moth.png">
       <SubType></SubType>
       <Generator></Generator>
@@ -362,10 +363,13 @@
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
+=======
+>>>>>>> Fresh-branch
     <AndroidResource Include="Resources\drawable\purple_worm.png">
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
+<<<<<<< HEAD
     <AndroidResource Include="Resources\drawable-hdpi\purple_worm1_5x.png">
       <SubType></SubType>
       <Generator></Generator>
@@ -406,6 +410,8 @@
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
+=======
+>>>>>>> Fresh-branch
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

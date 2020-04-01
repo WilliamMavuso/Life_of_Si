@@ -4,17 +4,27 @@
       "idiom": "universal"
     },
     {
+<<<<<<< HEAD
       "filename": "pink_worm.png",
+=======
+      "filename": "pin_worm.png",
+>>>>>>> Fresh-branch
       "scale": "1x",
       "idiom": "universal"
     },
     {
+<<<<<<< HEAD
       "filename": "pink_worm2x.png",
+=======
+>>>>>>> Fresh-branch
       "scale": "2x",
       "idiom": "universal"
     },
     {
+<<<<<<< HEAD
       "filename": "pink_worm3x.png",
+=======
+>>>>>>> Fresh-branch
       "scale": "3x",
       "idiom": "universal"
     },
