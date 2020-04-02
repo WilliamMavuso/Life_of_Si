@@ -23,23 +23,17 @@ namespace LifeofSi
         {
             clickTotal += 1;
            
-            Xplabel.Text = $"{clickTotal} /30";
+            Xplabel.Text = $"{clickTotal} /20";
 
             if (clickTotal >= 10)
             {
 
                 level.Text = "Lvl.2";
-                level.TextColor = Color.Red;
-                (sender as ImageButton).Source = ImageSource.FromFile("pink_worm");
-            }
-            if (clickTotal >= 20)
-            {
-                level.Text = "Lvl.3";
                 level.TextColor = Color.HotPink;
                 (sender as ImageButton).Source = ImageSource.FromFile("purple_worm");
             }
 
-            if (clickTotal == 30)
+            if (clickTotal == 20)
             {
                 clickTotal--;
                 DisplayAlert("Congratulations " + userName.Text + "!", "Si is now completely full.", "Ok");

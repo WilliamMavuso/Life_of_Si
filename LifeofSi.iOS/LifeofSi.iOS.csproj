@@ -85,9 +85,6 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon152.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon120.png">
-      <Visible>false</Visible>
-    </ImageAsset>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon87.png">
       <Visible>false</Visible>
     </ImageAsset>
@@ -164,12 +161,9 @@
     <ImageAsset Include="Assets.xcassets\moth.imageset\moth.png" />
     <ImageAsset Include="Assets.xcassets\moth.imageset\moth2x.png" />
     <ImageAsset Include="Assets.xcassets\moth.imageset\moth3x.png" />
-    <ImageAsset Include="Assets.xcassets\pink_worm.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\pink_worm.imageset\pin_worm.png" />
     <ImageAsset Include="Assets.xcassets\purple_worm.imageset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\purple_worm.imageset\purple_worm.png" />
-    <ImageAsset Include="Assets.xcassets\purple_worm.imageset\purple_worm-1.png" />
-    <ImageAsset Include="Assets.xcassets\purple_worm.imageset\purple_worm-2.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\si_face-01 1.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

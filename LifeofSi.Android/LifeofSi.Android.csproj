@@ -342,10 +342,6 @@
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
-    <AndroidResource Include="Resources\drawable\purple_worm.png">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
     <AndroidResource Include="Resources\drawable\moth.png">
       <SubType></SubType>
       <Generator></Generator>
@@ -366,7 +362,11 @@
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
-    <AndroidResource Include="Resources\drawable\pink_worm.png">
+    <AndroidResource Include="Resources\drawable-hdpi\purple_worm.png">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable\purple_worm.png">
       <SubType></SubType>
       <Generator></Generator>
     </AndroidResource>
