@@ -4,21 +4,18 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LifeofSi.FeedPage">
 
-     <!--// random comment-->
-
     <ContentPage.Content>
 
             <Grid HorizontalOptions="FillAndExpand"
                   VerticalOptions="FillAndExpand"
-                  
                   Grid.Row="0">
-              <Grid.RowDefinitions>
-                <RowDefinition Height="50"></RowDefinition>
-                <RowDefinition Height="200"></RowDefinition>
-                <RowDefinition Height="310"></RowDefinition>
-                <RowDefinition Height="250"></RowDefinition>
-                <RowDefinition Height="*"></RowDefinition>
-            </Grid.RowDefinitions>
+                      <Grid.RowDefinitions>
+                        <RowDefinition Height="50"></RowDefinition>
+                        <RowDefinition Height="200"></RowDefinition>
+                        <RowDefinition Height="310"></RowDefinition>
+                        <RowDefinition Height="250"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                    </Grid.RowDefinitions>
 
             <StackLayout>
 
@@ -29,12 +26,9 @@
                     BackgroundColor="Transparent" 
                     HeightRequest="43"
                     WidthRequest="43"
-                    Margin="10,0,20,20"
-                   >
+                    Margin="10,0,20,20">
                 </ImageButton>
-
-                 <ImageButton
-                 
+                 <ImageButton             
                      VerticalOptions="CenterAndExpand"
                      HorizontalOptions="CenterAndExpand"
                      BackgroundColor="Transparent" 
@@ -44,19 +38,15 @@
                      Source="green_worm">
                 </ImageButton>
 
-            </StackLayout>
+            </StackLayout><!--Menu+Avatar-Icons-->
 
 
             <StackLayout
                  Margin="10,115,20,20"
-                Grid.Row="1">
-
-                <!--Text="{x:Static local:userDetails.Name}"-->
+                 Grid.Row="1">
 
                 <Entry
                     Text=""
-                    
-                  
                     x:Name="userName"
                     Placeholder="Enter a username"
                     HorizontalTextAlignment="Center"
@@ -88,15 +78,15 @@
                         x:Name="Xplabel"
                         HorizontalOptions="CenterAndExpand"
                         Margin="0,6,0,0"
-                        Text="/30">
+                        Text="/20">
                     </Label>
                 </StackLayout>
 
-            </StackLayout>
+            </StackLayout><!--Level-Indicator-->
 
             <StackLayout Grid.Row="2">
                 <ImageButton
-                    x:Name="siImage"
+                x:Name="siImage"
                 Margin="10,0,-2,20"
                 VerticalOptions="CenterAndExpand"
                 HorizontalOptions="Center"
@@ -105,11 +95,9 @@
                 HeightRequest="220"
                 Clicked="ImageButton_Clicked"
                 Source="green_worm" >
-              
-
             </ImageButton>
 
-            </StackLayout>
+            </StackLayout><!--Main-Image-->
 
                     <Frame
                         Grid.Row="3"
@@ -213,13 +201,7 @@
                 </StackLayout>
 
             </Grid>
-        </Frame>
-
-
-
-
-
-
+        </Frame><!--Navigation-->
 
         </Grid>
     </ContentPage.Content>

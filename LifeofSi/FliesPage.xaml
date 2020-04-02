@@ -2,10 +2,10 @@
 <ContentPage BackgroundColor="White" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="LifeofSi.FliesPage">
     <ContentPage.Content>
 
-                    <Grid HorizontalOptions="FillAndExpand"
-                  VerticalOptions="FillAndExpand"
-                  
+        <Grid HorizontalOptions="FillAndExpand"
+              VerticalOptions="FillAndExpand"
                   Grid.Row="0">
+
               <Grid.RowDefinitions>
                 <RowDefinition Height="50"></RowDefinition>
                 <RowDefinition Height="200"></RowDefinition>
@@ -23,151 +23,70 @@
                     BackgroundColor="Transparent" 
                     HeightRequest="43"
                     WidthRequest="43"
-                    Margin="10,0,20,20"
-                   >
+                    Margin="10,0,20,20">
                 </ImageButton>
 
+            </StackLayout> <!--Menu-Icon-->
 
-                
+            <StackLayout Grid.Row="1">
 
-            </StackLayout>
-                                                <StackLayout Grid.Row="1">
-                                     <Grid  Margin="33,80,20,20" ColumnSpacing="8" >
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="33.33*" />
-            <ColumnDefinition Width="33.33*" />
-            <ColumnDefinition Width="33.33*" />
-        </Grid.ColumnDefinitions>
-        <ImageButton Source="fly" x:Name="flyImage" BackgroundColor="Transparent"  Clicked="FlyButton_Clicked" WidthRequest="80" HeightRequest="80" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center"/>
-        <ImageButton Source="fly" x:Name="flyImage1" BackgroundColor="Transparent"  Clicked="FlyButton_Clicked1"  WidthRequest="80" HeightRequest="80"  Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center"/>
-        <ImageButton Source="fly" x:Name="flyImage2" BackgroundColor="Transparent"  Clicked="FlyButton_Clicked2"  WidthRequest="80" HeightRequest="80" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center"/>          
-     </Grid>
-                        </StackLayout>
+                <Grid  Margin="33,80,20,20" ColumnSpacing="8" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="33.33*" />
+                        <ColumnDefinition Width="33.33*" />
+                        <ColumnDefinition Width="33.33*" />
+                    </Grid.ColumnDefinitions>
+                    <ImageButton Source="fly" x:Name="flyImage" BackgroundColor="Transparent"  Clicked="FlyButton_Clicked" WidthRequest="80" HeightRequest="80" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <ImageButton Source="fly" x:Name="flyImage1" BackgroundColor="Transparent"  Clicked="FlyButton_Clicked1"  WidthRequest="80" HeightRequest="80"  Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <ImageButton Source="fly" x:Name="flyImage2" BackgroundColor="Transparent"  Clicked="FlyButton_Clicked2"  WidthRequest="80" HeightRequest="80" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center"/>          
+                </Grid>
+            </StackLayout> <!--Flies-Row-->
 
             <StackLayout Grid.Row="2">
                 <Image
-                     Margin="10,0,-2,20"
-                VerticalOptions="CenterAndExpand"
-                HorizontalOptions="Center"
-                BackgroundColor="Transparent" 
-                WidthRequest="220"
-                HeightRequest="220"
-                Source="green_worm" >
-              
-
+                    Margin="10,0,-2,20"
+                    VerticalOptions="CenterAndExpand"
+                    HorizontalOptions="Center"
+                    BackgroundColor="Transparent" 
+                    WidthRequest="220"
+                    HeightRequest="220"
+                    Source="green_worm">
             </Image>
+            </StackLayout> <!--Main-Image-->
 
-            </StackLayout><!--Main image-->
+            <StackLayout Grid.Row="2">
+                 <Grid  Margin="45,10,20,20" ColumnSpacing="8" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="33.33*" />
+                        <ColumnDefinition Width="33.33*" />
+                        <ColumnDefinition Width="33.33*" />
+                    </Grid.ColumnDefinitions>
+                    <ImageButton Source="fly" x:Name="flyImage3" BackgroundColor="Transparent" Clicked="FlyButton_Clicked3"  WidthRequest="80" HeightRequest="80" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <ImageButton Source="fly" x:Name="flyImage4" BackgroundColor="Transparent"  Clicked="FlyButton_Clicked4"   WidthRequest="80" HeightRequest="80"  Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <ImageButton Source="fly" x:Name="flyImage5" BackgroundColor="Transparent" Clicked="FlyButton_Clicked5"  WidthRequest="80" HeightRequest="80" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center"/>          
+                 </Grid>
+            </StackLayout><!--Flies-Row-->
 
-                                                <StackLayout Grid.Row="2">
-                                     <Grid  Margin="45,10,20,20" ColumnSpacing="8" >
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="33.33*" />
-            <ColumnDefinition Width="33.33*" />
-            <ColumnDefinition Width="33.33*" />
-        </Grid.ColumnDefinitions>
-        <ImageButton Source="fly" x:Name="flyImage3" BackgroundColor="Transparent" Clicked="FlyButton_Clicked3"  WidthRequest="80" HeightRequest="80" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center"/>
-        <ImageButton Source="fly" x:Name="flyImage4" BackgroundColor="Transparent"  Clicked="FlyButton_Clicked4"   WidthRequest="80" HeightRequest="80"  Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center"/>
-        <ImageButton Source="fly" x:Name="flyImage5" BackgroundColor="Transparent" Clicked="FlyButton_Clicked5"  WidthRequest="80" HeightRequest="80" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center"/>          
-     </Grid>
-                        </StackLayout>
-
-         <StackLayout Grid.Row="2">
-            <Grid  Margin="45,150,20,20" ColumnSpacing="8" >
+            <StackLayout Grid.Row="2">
+                <Grid  Margin="45,150,20,20" ColumnSpacing="8" >
                     <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="33.33*" />
                     <ColumnDefinition Width="33.33*" />
                     <ColumnDefinition Width="33.33*" />
                 </Grid.ColumnDefinitions>
-                <ImageButton Source="fly" x:Name="flyImage6" BackgroundColor="Transparent"  Clicked="FlyButton_Clicked6"   WidthRequest="80" HeightRequest="80" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center"/>
-                <ImageButton Source="fly" x:Name="flyImage7" BackgroundColor="Transparent" Clicked="FlyButton_Clicked7"   WidthRequest="80" HeightRequest="80"  Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center"/>
-                <ImageButton Source="fly" x:Name="flyImage8" BackgroundColor="Transparent" Clicked="FlyButton_Clicked8"   WidthRequest="80" HeightRequest="80" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center"/>          
-             </Grid>
-       </StackLayout>
+                    <ImageButton Source="fly" x:Name="flyImage6" BackgroundColor="Transparent"  Clicked="FlyButton_Clicked6"   WidthRequest="80" HeightRequest="80" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <ImageButton Source="fly" x:Name="flyImage7" BackgroundColor="Transparent" Clicked="FlyButton_Clicked7"   WidthRequest="80" HeightRequest="80"  Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    <ImageButton Source="fly" x:Name="flyImage8" BackgroundColor="Transparent" Clicked="FlyButton_Clicked8"   WidthRequest="80" HeightRequest="80" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center"/>          
+                </Grid>
+            </StackLayout><!--Flies-Row-->
 
 
-            <!--<StackLayout
-                 Margin="10,115,20,20"
-                Grid.Row="1">
-                            <StackLayout
-                 Margin="10,115,20,20"
-                Grid.Row="1"
-                Orientation="Horizontal">
-
-                 <ImageButton
-                     VerticalOptions="CenterAndExpand"
-                     HorizontalOptions="CenterAndExpand"
-                     BackgroundColor="Transparent" 
-                     WidthRequest="80"
-                     HeightRequest="80"
-                     Source="fly">
-                </ImageButton>
-
-                 <ImageButton
-                     VerticalOptions="CenterAndExpand"
-                     HorizontalOptions="CenterAndExpand"
-                     BackgroundColor="Transparent" 
-                     WidthRequest="80"
-                     HeightRequest="80"
-                     Source="fly">
-                </ImageButton>
-
-                <ImageButton
-                     VerticalOptions="CenterAndExpand"
-                     HorizontalOptions="CenterAndExpand"
-                     BackgroundColor="Transparent" 
-                     WidthRequest="80"
-                     HeightRequest="80"
-                     Source="fly">
-                </ImageButton>
-
-            </StackLayout>
-
-                               
-                            <StackLayout
-                 Margin="10,0,20,20"
-                Grid.Row="2"
-                Orientation="Horizontal">
-
-                 <ImageButton
-                     VerticalOptions="CenterAndExpand"
-                     HorizontalOptions="CenterAndExpand"
-                     BackgroundColor="Transparent" 
-                     WidthRequest="80"
-                     HeightRequest="80"
-                     Source="fly">
-                </ImageButton>
-
-                 <ImageButton
-                     VerticalOptions="CenterAndExpand"
-                     HorizontalOptions="CenterAndExpand"
-                     BackgroundColor="Transparent" 
-                     WidthRequest="80"
-                     HeightRequest="80"
-                     Source="fly">
-                </ImageButton>
-
-                <ImageButton
-                     VerticalOptions="CenterAndExpand"
-                     HorizontalOptions="CenterAndExpand"
-                     BackgroundColor="Transparent" 
-                     WidthRequest="80"
-                     HeightRequest="80"
-                     Source="fly">
-                </ImageButton>
-
-            </StackLayout>
-
-            </StackLayout>-->
-
-
-
-                    <Frame
-                        Grid.Row="3"
-                        HasShadow="False"
-                        Margin="20,-40,20,0"
-                        Padding="0" HeightRequest="120"
-                        VerticalOptions="Start">
+            <Frame
+                  Grid.Row="3"
+                  HasShadow="False"
+                  Margin="20,-40,20,0"
+                  Padding="0" HeightRequest="120"
+                  VerticalOptions="Start">
 
                 <Grid
                     HorizontalOptions="FillAndExpand"
@@ -264,14 +183,7 @@
                 </StackLayout>
 
             </Grid>
-        </Frame>
-
-
-
-
-
-
-
-        </Grid>
+        </Frame><!--Navigation-->
+        </Grid> <!--Outer-Grid-->
     </ContentPage.Content>
 </ContentPage>

@@ -24,16 +24,15 @@
                     WidthRequest="43"
                     Margin="10,0,20,20"
                    >
-                </ImageButton>
+                </ImageButton><!--Menu-Icon-->
 
             </StackLayout>
 
 
             <StackLayout
                  Margin="10,15,20,20"
-                Orientation="Horizontal"
-                
-                Grid.Row="1">
+                 Orientation="Horizontal"
+                 Grid.Row="1">
 
                 <Grid ColumnSpacing="80">
                    <Grid.ColumnDefinitions>
@@ -58,30 +57,29 @@
                     <StackLayout
                         Orientation="Vertical" Margin="10,25,20,20" Spacing="3" Grid.Column="1">
 
-                 <Label
-                     x:Name="userName"
+                <Label
+                    x:Name="userName"
                     Text="Username"
                     FontSize="Subtitle"
                     VerticalOptions="Center"
                     HorizontalOptions="Center">
                 </Label>
-
-
-
-        <ProgressBar x:Name="mainProgressBar"
-                     Progress="0"
-                     Margin="0,18,0,0"
-                     WidthRequest="300"
+                <ProgressBar
+                    x:Name="mainProgressBar"
+                    Progress="0"
+                    Margin="0,18,0,0"
+                    WidthRequest="300"
                     VerticalOptions="Center"
                     HorizontalOptions="Center">
-        </ProgressBar>
+                </ProgressBar>
 
-         <ActivityIndicator  x:Name="activityIndicator" 
-                             Color="Black"/>
+                <ActivityIndicator
+                    x:Name="activityIndicator" 
+                    Color="Black"/>
 
-        <Label Text="0%" x:Name="percentage"
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+                <Label Text="0%" x:Name="percentage"
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Center" />
 
                 <StackLayout
                     Orientation="Horizontal"
@@ -91,13 +89,9 @@
                     </StackLayout>
                 </Grid>
 
-
-
-            </StackLayout>
+            </StackLayout> <!--Profile-Indicator-->
 
             <StackLayout Grid.Row="2">
-             
-
            
                 <Image Source="stage_1"
                     Margin="20,-23,20,0"
@@ -115,26 +109,15 @@
                     </Image.GestureRecognizers>
                 </Image>
 
-
-
                 <Label
                     x:Name="timerUpdate"
                     Margin="20,23,20,0"
                     FontSize="14"
                     HorizontalOptions="Center"
-                    Text="Swipe left to transform. ">
+                    Text="Double tap to transform. ">
                 </Label>
 
-                  <!--<StackLayout>
-                     <Label Text="{Binding Minutes}" FontSize="15" FontAttributes="Bold" TextColor="Black" HorizontalOptions="End"/>
-                     <Label Text="MINUTES" FontSize="10" TextColor="White" Opacity="0.5" HorizontalOptions="End" Margin="0,-5,0,0"/>
-                   </StackLayout>
-                  <StackLayout>
-                     <Label Text="{Binding Seconds}" FontSize="15" FontAttributes="Bold" TextColor="Black" HorizontalOptions="End"/>
-                     <Label Text="SECONDS" FontSize="10" TextColor="White" Opacity="0.5" HorizontalOptions="End" Margin="0,-5,0,0"/>
-                   </StackLayout>-->
-
-            </StackLayout>
+            </StackLayout><!--Image-section-->
 
                     <Frame
                         Grid.Row="3"
@@ -236,16 +219,8 @@
                         <Label Text="Market" TextColor="#7D7D7D" FontSize="11" HorizontalOptions="Center"/>
                     </StackLayout>
                 </StackLayout>
-
             </Grid>
-        </Frame>
-
-
-
-
-
-
-
-        </Grid>
+        </Frame><!--Navigation-->
+        </Grid><!--Outer-Grid-->
     </ContentPage.Content>
 </ContentPage>
